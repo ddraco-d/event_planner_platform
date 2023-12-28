@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "practice-7"
+version = "0.1.0"
+description = ""
+authors = ["ddraco-d <a.ed.komarov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.1.4"
+fastapi = "^0.105.0"
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.23"
+uvicorn = "^0.25.0"
+python-jose = "^3.3.0"
+passlib = "^1.7.4"
+python-multipart = "^0.0.6"
+bcrypt = "^4.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
